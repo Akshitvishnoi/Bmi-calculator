@@ -1,0 +1,113 @@
+/* App.css */
+
+body {
+  background: linear-gradient(135deg, #c6c4e2, #353636);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #0c0909;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background: rgb(204, 198, 198);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.center {
+  margin: 1rem 0;
+}
+
+h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+form div {
+  margin: 1rem 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+button.btn {
+  background-color: #007bff;
+  color: white;
+}
+
+button.btn-outline {
+  background-color: white;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+button.btn:hover,
+button.btn-outline:hover {
+  opacity: 0.8;
+}
+
+.result {
+  margin-top: 2rem;
+}
+
+.result h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.result p {
+  font-size: 1.2rem;
+  color: #555;
+}
